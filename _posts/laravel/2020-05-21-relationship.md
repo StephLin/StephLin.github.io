@@ -1,4 +1,5 @@
 ---
+layout: article
 title: "[EP. 7] Laravel Model Relationship 模型關聯"
 time: 2020-05-21 20:50:00 +0800
 tags: [Laravel, Tutorial]

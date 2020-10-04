@@ -1,4 +1,5 @@
 ---
+layout: article
 title: "[EP. 4] Laravel Controller 控制器"
 time: 2020-04-30 20:50:00 +0800
 tags: [Laravel, Tutorial]

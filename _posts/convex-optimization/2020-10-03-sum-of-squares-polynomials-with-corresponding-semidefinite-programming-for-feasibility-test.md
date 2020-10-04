@@ -1,4 +1,5 @@
 ---
+layout: article
 title: "Checking Sum of Squares Polynomials with CVXPY"
 tags:
   - Convex Optimization
