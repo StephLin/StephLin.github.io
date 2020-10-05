@@ -162,59 +162,6 @@ Problem
   Name                   :
   Objective sense        : min
   Type                   : CONIC (conic optimization problem)
-  Constraints            : 135
-  Cones                  : 0
-  Scalar variables       : 55
-  Matrix variables       : 1
-  Integer variables      : 0
-
-Optimizer  - threads                : 6
-Optimizer  - solved problem         : the primal
-Optimizer  - Constraints            : 100
-Optimizer  - Cones                  : 1
-Optimizer  - Scalar variables       : 21                conic                  : 21
-Optimizer  - Semi-definite variables: 1                 scalarized             : 55
-Factor     - setup time             : 0.00              dense det. time        : 0.00
-Factor     - ML order time          : 0.00              GP order time          : 0.00
-Factor     - nonzeros before factor : 5050              after factor           : 5050
-Factor     - dense dim.             : 0                 flops                  : 3.73e+05
-ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME
-0   4.0e+00  1.0e+00  1.0e+00  0.00e+00   0.000000000e+00   0.000000000e+00   1.0e+00  0.00
-1   9.9e-01  2.5e-01  2.6e-01  -5.06e-01  0.000000000e+00   5.955154109e-01   2.5e-01  0.00
-2   1.2e-01  3.1e-02  8.9e-03  6.55e-01   0.000000000e+00   1.786795893e-02   3.1e-02  0.00
-3   2.4e-02  6.0e-03  6.4e-04  1.16e+00   0.000000000e+00   -1.171957303e-04  6.0e-03  0.00
-4   4.8e-03  1.2e-03  6.3e-05  1.02e+00   0.000000000e+00   4.984738046e-04   1.2e-03  0.00
-5   1.0e-03  2.6e-04  6.2e-06  1.22e+00   0.000000000e+00   1.448269790e-04   2.6e-04  0.00
-6   2.5e-04  6.2e-05  7.6e-07  1.10e+00   0.000000000e+00   4.819535948e-05   6.2e-05  0.00
-7   5.7e-05  1.4e-05  8.2e-08  1.12e+00   0.000000000e+00   1.182936817e-05   1.4e-05  0.01
-8   1.2e-05  2.9e-06  7.3e-09  9.73e-01   0.000000000e+00   1.623429926e-06   2.9e-06  0.01
-9   2.3e-06  5.7e-07  6.3e-10  8.44e-01   0.000000000e+00   2.578343391e-07   5.7e-07  0.01
-10  5.6e-07  1.4e-07  7.0e-11  1.22e+00   0.000000000e+00   4.849970349e-08   1.4e-07  0.01
-11  1.3e-07  3.2e-08  9.2e-12  7.81e-01   0.000000000e+00   2.734660260e-08   3.2e-08  0.01
-12  2.3e-08  5.8e-09  5.5e-13  1.24e+00   0.000000000e+00   5.578862505e-10   5.8e-09  0.01
-Optimizer terminated. Time: 0.01
-
-
-Interior-point solution summary
-  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
-  Solution status : OPTIMAL
-  Primal.  obj: 0.0000000000e+00    nrm: 5e+00    Viol.  con: 3e-08    var: 0e+00    barvar: 0e+00
-  Dual.    obj: 5.5788624960e-10    nrm: 4e+00    Viol.  con: 0e+00    var: 3e-09    barvar: 9e-09
-Problem
-  Name                   :
-  Objective sense        : min
-  Type                   : CONIC (conic optimization problem)
-  Constraints            : 26
-  Cones                  : 0
-  Scalar variables       : 10
-  Matrix variables       : 1
-  Integer variables      : 0
-
-Optimizer started.
-Problem
-  Name                   :
-  Objective sense        : min
-  Type                   : CONIC (conic optimization problem)
   Constraints            : 26
   Cones                  : 0
   Scalar variables       : 10
