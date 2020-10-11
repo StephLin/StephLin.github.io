@@ -25,6 +25,7 @@ class Jekyll < Thor
       post.puts "  - "
       post.puts "tags:"
       post.puts "  - "
+      post.puts "key: #{date}-#{title.to_url}"
       post.puts "---"
     end
   end
