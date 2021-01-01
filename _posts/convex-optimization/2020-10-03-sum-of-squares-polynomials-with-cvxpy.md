@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Checking Sum of Squares Polynomials with CVXPY"
+title: "Checking Sum of Squares (SOS) Polynomials with CVXPY"
 tags:
   - Convex Optimization
   - Sum of Squares
