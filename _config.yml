@@ -17,10 +17,10 @@
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+highlight_theme: tomorrow-night-eighties # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : StephLin
+title   : StephLin's Blog
 description: > # this means to ignore newlines until "Language & timezone"
   Yu-Kai Lin's personal blog
 
@@ -38,7 +38,7 @@ author:
   name      : Yu-Kai Lin
   url       : https://stephlin.github.io
   avatar    : https://lh3.googleusercontent.com/a-/AOh14GhnBsa3whM8nDU2qGfFG84MKmM_4AOFJ91qkz8c-g  # path or url of avatar image (square)
-  bio       : Master student of Computer Science
+  bio       : MS of Computer Science @ NCTU
   email     : stephen359595@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
