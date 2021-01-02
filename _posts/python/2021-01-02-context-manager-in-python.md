@@ -152,7 +152,7 @@ instantiate but not actually read ...
 
 這個強大內建套件就是 [contextlib](https://docs.python.org/3/library/contextlib.html)，實務上他可以幫助 Python 在處理資源管理的時候可以更加優雅。
 
-我們以 `FileResource` 為例，在 contextlib 的加持它可以被簡化成以下形式：
+我們以 `FileResource` 為例，在 contextlib 的加持下它可以被簡化成以下形式：
 
 ```python
 import contextlib
