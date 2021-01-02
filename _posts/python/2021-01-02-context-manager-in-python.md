@@ -222,7 +222,7 @@ def open_connect_by_host_and_username(host):
 
 ### Case Study #2: 轉導 stdout 到檔案流
 
-- 將在 stdout 接到的字串流當作資源，並轉導引到其他檔案流 (如空裝置或標準錯誤流)
+- 將在 stdout 接到的字串流當作資源，轉導引到其他檔案流 (如空裝置或標準錯誤流)
 
 ```python
 import contextlib
