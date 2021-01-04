@@ -230,12 +230,15 @@ import os
 import sys
 
 
-with contextlib.redirect_stdout(open(os.devnull, 'w')):
+with contextlib.redirect_stdout(None):
     print('Do not show anything')
 
 with contextlib.redirect_stdout(sys.stderr):
     print('I would be flushed at any time!')
 ```
+
+<i class="fas fa-exclamation-triangle"></i> Python 的 `redirect_stdout` 並無法捕捉所有 stdout 接收到的字串流，就算是 `sys.stdout` 也有同樣的問題，若要捕捉全部資料，需要去呼叫到底層的 file descriptor. 若有興趣的讀者請參考 [Eli Bendersky](https://github.com/eliben) 的文章：[Redirecting all kinds of stdout in Python](https://eli.thegreenplace.net/2015/redirecting-all-kinds-of-stdout-in-python/).
+{:.warning}
 
 ### Case Study #3: 複數資源管理 ExitStack
 
