@@ -210,12 +210,12 @@ import contextlib
 import asyncssh
 
 
-def get_host_info_by_config(hostname): ...
+def get_host_info_by_config(config): ...
 
 
 @contextlib.contextmanger
-def open_connect_by_host_and_username(host):
-    hostname, username = get_host_info_by_config(host)
+def open_connect_by_config(config):
+    hostname, username = get_host_info_by_config(config)
     with asyncssh.connect(hostname, username=username) as conn:
         yield conn
 ```
