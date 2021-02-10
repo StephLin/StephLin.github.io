@@ -30,6 +30,18 @@
   }
   background-size: cover;
 
+  &.quote {
+    background-color: $header-background;
+    p:first-child {
+      &::before {
+        content: "”";
+      }
+      &::after {
+        content: "”";
+      }
+    }
+  }
+
 }
 
 .hero--center {
