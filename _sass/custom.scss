@@ -1,3 +1,5 @@
 /* start custom scss snippet */
-
+code {
+    font-size: map-get($base, font-size);
+}
 /* end custom scss snippet */
