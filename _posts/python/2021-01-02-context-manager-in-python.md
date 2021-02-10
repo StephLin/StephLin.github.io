@@ -17,6 +17,8 @@ key: 2021-01-02-context-manager-in-python
 
 本篇我們將整理在 Python 中面對資源存取問題時，透過 `with` 的常見作法、其物件意涵、以及內建套件 `contextlib` 的一些使用時機。
 
+<!-- more -->
+
 ## 單一檔案存取
 
 假設我們有一個檔案 `input.txt`：

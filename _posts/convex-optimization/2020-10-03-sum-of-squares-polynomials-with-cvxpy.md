@@ -12,6 +12,8 @@ key: 2020-10-03-sum-of-squares-polynomials-with-cvxpy
 
 This post aims at introducing a programming way to check if a polynomial is sum of squares.
 
+<!-- more -->
+
 ## Background Knowledge of Sum of Squares Polynomials
 
 Formally we say a polynomial $f\in\mathbb{R}[x]$ is sum of squares if exist several polynomials $g\in\mathbb{R}[x]$ such that
