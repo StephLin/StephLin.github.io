@@ -7,14 +7,23 @@ tags:
   - vscode
   - extensions
   - insights
+  - preview
 key: 2021-02-10-vscode-extensions
 ---
+
+<style>
+h4::before {
+  content: "● ";
+}
+</style>
 
 常說工欲善其事，必先利其器。對於程式設計師來說，一個好的編輯器肯定是能把程式寫得風生水起呢！談到該使用何種編輯器，這又是另一個戰場，想到幾年前筆者在挑選編輯器的時候，也是在不敗經典 Vim 與後起之秀 VSCode 之間掙扎了好一陣子。
 
 不過今天先不說這些，我們倒是聊聊這個後起之秀 [VSCode (Visual Studio Code)](https://code.visualstudio.com/) 他的一些特點，以及就我的使用經驗有哪些推薦的擴充套件！d(`･∀･)b
 
 ![](https://user-images.githubusercontent.com/1487073/58344409-70473b80-7e0a-11e9-8570-b2efc6f8fa44.png){:.image--70.image}
+
+> Image Credit: VSCode
 
 <!-- more -->
 
@@ -91,34 +100,39 @@ key: 2021-02-10-vscode-extensions
 
 ## VSCode 擴充套件推薦
 
-接下來筆者將針對不同的使用情境推薦自己現役的額外套件，但因為數量偏多 (筆者本身也是裝了超過 50 個擴充套件的偏重度使用者 XD)，故詳細的說明筆者直接附上介紹文章連結供有興趣的讀者參考。
+接下來筆者將針對不同的使用情境推薦自己現役的額外套件，但因為數量偏多 (筆者本身也是擴充套件的偏重度使用者 XD)，故僅列出套件以及一些簡述，供有興趣的讀者參考。
 
 ### 設定同步工具
 
 #### [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-對於可能在複數電腦上開發的人來說絕對是福音！設定一次，同步至雲端後，即可在其他電腦上一鍵更新。相關介紹文請參考[^medium-les-lee-settings-sync] [^medium-shu-shan-huang-settings-sync]。
+對於可能在複數電腦上開發的人來說絕對是福音！設定一次，同步至雲端後，即可在其他電腦上一鍵更新。
 
-[^medium-les-lee-settings-sync]: [[VSCode] 使用 Settings Sync 同步 VScode 的擴充功能與各項設定](https://medium.com/%E4%B8%80%E5%80%8B%E5%B0%8F%E5%B0%8F%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E9%9A%A8%E6%89%8B%E7%AD%86%E8%A8%98/vscode-%E4%BD%BF%E7%94%A8-settings-sync-%E5%90%8C%E6%AD%A5-vscode-%E7%9A%84%E6%93%B4%E5%85%85%E5%8A%9F%E8%83%BD%E8%88%87%E5%90%84%E9%A0%85%E8%A8%AD%E5%AE%9A-bb24a8d141eb)
-[^medium-shu-shan-huang-settings-sync]: [VS Code Settings Sync (上傳設定)](https://medium.com/susan-blog/vs-code-settings-sync-%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-4d22deba2185)
-
-> 最近 (2021.02.04) 發現 VSCode 官方似乎想直接在原生實現這個功能呢[^vscode-docs-settings-sync]。
+> 最近 (2021.02.04) 發現 VSCode 官方似乎打算直接在原生實現這個功能呢[^vscode-docs-settings-sync]。
 
 [^vscode-docs-settings-sync]: [Settings Sync in Visual Studio Code](https://code.visualstudio.com/docs/editor/settings-sync)
 
-### 編輯區塊通用快捷鍵
+### 編輯區塊通用擴充功能
 
-#### [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+#### [Vim (VSCodeVim)](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
-VSCode 還是 Vim？兩個都要！在 VSCode 上面也可以讓游標飛呢！介紹文請參考[^medium-larry-lu-vscode]。
-
-[^medium-larry-lu-vscode]: [VSCode 如何提高我的寫扣效率](https://medium.com/susan-blog/vs-code-settings-sync-%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-4d22deba2185)
+VSCode 還是 Vim？兩個都要！在 VSCode 上面也可以讓游標飛呢！
 
 > 到目前為止 (2021.02.10)，部分指令跟功能在使用上還是有一些小問題，但整體上還是不錯的。
 
 #### [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 
-如果曾經使用過 Sublime Text 3 的話應該會很喜歡這個套件，他將一些好用的快捷鍵整合到 VSCode 當中。重點是他可以跟 [VSCodeVim](#vim) 共用！
+如果曾經使用過 Sublime Text 3 的話應該會很喜歡這個套件，他將一些好用的快捷鍵整合到 VSCode 當中。重點是他可以跟 [VSCodeVim](#vim-vscodevim) 共用！
+
+#### [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+
+當大量的括號讓你眼花撩亂的時候，這時候你需要一個工具幫你把那些東西上色。這個套件可以幫你做到這件事情。
+
+#### [Auto Hide](https://marketplace.visualstudio.com/items?itemName=sirmspencer.vscode-autohide)
+
+實際上也是筆者以前使用 Vim nerdtree[^github-nerdtree] 時養成的壞習慣 (?)，可以在你編輯程式碼的時候自動把 Side Bar 隱藏起來。
+
+[^github-nerdtree]: [GitHub - preservim/nerdtree: A tree explorer plugin for vim](https://github.com/preservim/nerdtree)
 
 ### 終端機通用快捷鍵
 
@@ -129,6 +143,45 @@ VSCode 還是 Vim？兩個都要！在 VSCode 上面也可以讓游標飛呢！�
 [^medium-larry-lu-tmux]: [終端機 session 管理神器 — tmux](https://larrylu.blog/tmux-33a24e595fbc)
 
 > 不嫌棄的話也歡迎[到 GitHub Repo 給個星星](https://github.com/StephLin/vscode-tmux-keybinding)唷 (๑•̀ㅂ•́)و✧
+
+### Git 擴充
+
+實際上 VSCode 本身內建 Git 功能，可以實現比如 `commit`、`push`、`pull`、`merge` 等常見操作，而一些擴充套件可以讓功能更完備。
+
+<i class="fas fa-info-circle"></i> 若不熟悉 Git 的讀者可參考猴子系列[^backlog-git]，寫得滿好的。
+{:.info}
+
+[^backlog-git]: [連猴子都能懂的 Git 入門指南](https://backlog.com/git-tutorial/tw/)
+
+#### [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+把 Git 的更多資訊直接呈現在程式碼當中，可以藉此更快速地調閱相關資訊。
+
+#### [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+將 Git 開發過程直接視覺化成圖形式，並且可以直接在這個圖上面執行一些 Git 操作。
+
+### 遠端開發 / 遠端協作
+
+#### [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+
+微軟自家推出的遠端開發套組，內含 SSH、Container、以及 WSL 三種遠端方法，在家在宿舍也能遠端無痛開發。
+
+> 在 1.52 (Nov. 2020) 版新增了其中一個有感功能是會自動做 port forwarding[^vscode-release-note-1-52]，不過經筆者實測後發現 SSH 遠端對由 Docker 驅動的服務不會自動轉發。
+
+[^vscode-release-note-1-52]: [Visual Studio Code November 2020 (Version 1.52)](https://code.visualstudio.com/updates/v1_52)
+
+#### [Remote X11 (SSH)](https://marketplace.visualstudio.com/items?itemName=spadin.remote-x11-ssh)
+
+若使用遠端開發 (SSH) 有使用 GUI 需求的話，這個套件可以幫忙把必要環境變數設定好。
+
+#### [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+
+遠端協作或者遠端指導的必備工具！可以讓其他人透過網路存取你正在操作的 workspace。
+
+> VSCode 團隊目前正計畫將 Live Share 延伸到自家 Notebook 平台上，若真的實現了應該會是一個創舉，筆者滿期待的[^vscode-github-liveshare-notebook]！
+
+[^vscode-github-liveshare-notebook]: [API gaps to support Liveshare in Notebook · Issue #102503 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/issues/102503)
 
 ### Python 相關
 
@@ -141,7 +194,7 @@ VSCode 還是 Vim？兩個都要！在 VSCode 上面也可以讓游標飛呢！�
 
 #### [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
-2020 年 6 月官方推出的非開源語言伺服器 (Language Server Protocol, LSP)，宣稱在型態解析與語法支援上可以提供更快速且強大的幫助。相關文章可以參考官方部落格[^microsoft-devblogs-pylance]或是第三方報導[^ithome-pylance-20200701] [^ithome-pylance-20200926]。
+2020 年 6 月官方推出的非開源語言伺服器 (Language Server Protocol, LSP)，宣稱在型態解析與語法支援上可以提供更快速且強大的幫助[^microsoft-devblogs-pylance] [^ithome-pylance-20200701] [^ithome-pylance-20200926]。
 
 [^microsoft-devblogs-pylance]: [Announcing Pylance: Fast, feature-rich language support for Python in Visual Studio Code](https://devblogs.microsoft.com/python/announcing-pylance-fast-feature-rich-language-support-for-python-in-visual-studio-code/)
 [^ithome-pylance-20200701]: [微軟在 VS Code 上推出新的 Python 語言伺服器 Pylance](https://www.ithome.com.tw/news/138536)
@@ -155,3 +208,61 @@ VSCode 還是 Vim？兩個都要！在 VSCode 上面也可以讓游標飛呢！�
 > - 若近期想使用且希望能讓顯示好一些，可以先考慮使用 Numpy style `"autoDocstring.docstringFormat": "numpy"`
 
 [^vscode-github-issue-38]: [Improved docstring display support · Issue #38 · microsoft/vscode-python](https://github.com/microsoft/vscode-python/issues/38)
+
+### C/C++ 相關
+
+#### [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+
+官方推出的同名套件，可以支援程式碼追蹤、補全、以及偵錯等等功能。
+
+#### [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
+
+官方推出的 CMake 工具，可以提供使用 cmake 的專案更完整的支援，筆者通常也會伴著 [C/C++](#cc) 一起使用。
+
+### JavaScript / TypeScript 相關
+
+基於先天優勢，這類語言基本上不太需要裝擴充套件，功能就夠豐富了。不過還是有一些懶人套件可以幫助提升開發效率。
+
+> 然筆者針對 Vue.js 等前端框架的開發經驗較少，故相關的套件建議就沒有列出來。
+
+#### [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+程式碼美化工具，可以直接免除幫程式碼排版的麻煩。實際上他也支援 HTML、CSS、JSON、Markdown 等多種語言。
+
+#### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+針對 JavaScript 專案的正規化工具，特別在團隊開發時可以協助維持一貫的程式碼風格[^wcc723-vscode-eslint]。
+
+[^wcc723-vscode-eslint]: [在 VSCode 啟用程式碼規範工具 (ESLint)](https://wcc723.github.io/tool/2017/11/09/coding-style/)
+
+### Markdown 相關
+
+#### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+豐富的 Markdown 擴充功能，包括即時預覽、轉存成 HTML 等複數功能。
+
+#### [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
+
+針對 GitHub Markdown 樣式的套件組，可以讓上述套件在預覽的時候盡量跟網頁上的樣式一致。
+
+### 其他
+
+#### [licenser](https://marketplace.visualstudio.com/items?itemName=ymotongpoo.licenser)
+
+協助將授權許可文件以及標頭置入到專案中，本身內建多種開放授權專案以及支援超多種語言。
+
+#### [ROS](https://marketplace.visualstudio.com/items?itemName=ms-iot.vscode-ros)
+
+針對 ROS 專案的協助工具，除了操控及檢視 ROS 狀態之外，也會針對 C++ 專案提供客製化設定。
+
+> 就筆者的使用經驗，筆者會透過 VSCode Remote SSH 啟動 ROS master、觸發主程式後，利用 auto port forwarding 串接所有相關埠號到本地端，再用本地 (ROS for Windows) rviz 工具做視覺化，完美繞過 OpenGL 應用程式無法使用 X11 Forwarding 的問題。
+
+#### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+圖標擴充套件，簡約的設計語彙讓使用者看了心情很好 XD
+
+## 小結
+
+相比 Vim，VSCode 是一個相對沒有包袱的編輯器 (想想 Vim 還有 Vi 這個前身要顧)，以至於他可以挑選較現代的語言以及工具去開發，同時也有許多前輩工具可以借鑑，種種優勢讓這個編輯器本身可以站在比較好的起點。這個工具依然還有一些問題需要解決，但我們可以期待在不久的未來能看到他更多有趣的表現。
+
+沒有最好的編輯器，只有最適合的編輯器；沒有必裝的擴充套件，只有針對不同使用需求，去挑選能各自解決痛點的套件！
