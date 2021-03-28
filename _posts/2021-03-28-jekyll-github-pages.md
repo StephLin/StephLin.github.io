@@ -117,7 +117,7 @@ bundle exec jekyll serve --livereload
 ![](/assets/images/jekyll-github-pages/example-blog-demo.png){:.image--md--80}
 <small style="color: gray">範例網站首頁</small>
 
-#### Option 2. Clone 別人已經編排好的框架
+#### Option 2. Clone 別人設計好的框架
 
 筆者提供以下兩個地方可以尋找不錯的 Jekyll 主題：
 
@@ -130,10 +130,11 @@ bundle exec jekyll serve --livereload
 git clone https://github.com/kitian616/jekyll-TeXt-theme $YOUR_GITHUB_NAME.github.com
 ```
 
-接下來同第一種路線，在根目錄執行以下指令啟動網站：
+接下來同第一種路線，在專案根目錄初始化環境，並啟動網站：
 
 ```bash
 cd $YOUR_GITHUB_NAME.github.com
+bundle install
 bundle exec jekyll serve --livereload
 ```
 
