@@ -29,14 +29,14 @@ h4::before {
 
 ## VSCode 崛起觀察
 
-觀察了幾家文章[^clubhouse-pm-blog] [^medium-dev-genius-why-vscode]，結合自己的想法後，筆者認為 VSCode 的關鍵特色可以整理成以下五項：
+觀察了幾家文章[^clubhouse-pm-blog][^medium-dev-genius-why-vscode]，結合自己的想法後，筆者認為 VSCode 的關鍵特色可以整理成以下五項：
 
 [^clubhouse-pm-blog]: ["It's free", "it's open source" and 5 other reasons why VS Code is so popular with developers](https://clubhouse.io/blog/7-reasons-why-vs-code-is-so-popular/)
 [^medium-dev-genius-why-vscode]: [The Reasons why you Must Use Visual Studio Code](https://medium.com/dev-genius/the-reasons-why-you-must-use-visual-studio-code-b522f946a849)
 
 ### 1. 好的開始：開源且免費
 
-開源不只是趨勢，在實質意義上也有諸多好處。包括增加能見度、社群貢獻機制等等，筆者建議讀者可以參考一些網路上不錯的分析文章[^buzzorange-opensource] [^gvm-opensource] [^inside-opensource]。
+開源不只是趨勢，在實質意義上也有諸多好處。包括增加能見度、社群貢獻機制等等，筆者建議讀者可以參考一些網路上不錯的分析文章[^buzzorange-opensource][^gvm-opensource][^inside-opensource]。
 
 [^buzzorange-opensource]: [從 Redhat 到 GitHub，開源軟體為什麼開始火了？](https://buzzorange.com/techorange/2019/01/16/open-sources-rule/)
 [^gvm-opensource]: [成為世界上最強、最好的軟體公司：「開源」是唯一途徑](https://www.gvm.com.tw/article/33033)
@@ -54,7 +54,7 @@ h4::before {
   </div>
 </div>
 
-我們可以理解 Microsoft 這些舉動無疑是展現承認過去立場錯誤的決心[^bnext-microsoft-opensource] [^technews-microsoft-brad-smith]，儘管我們仍需要一些時間，觀察這些年的變化究竟能不能彌補在開源社區的名聲[^technews-microsoft-github-developers] [^inside-microsoft-github]，但至少 VSCode 是開源的 --- 依舊一定程度上提升了軟體自身聲量。
+我們可以理解 Microsoft 這些舉動無疑是展現承認過去立場錯誤的決心[^bnext-microsoft-opensource][^technews-microsoft-brad-smith]，儘管我們仍需要一些時間，觀察這些年的變化究竟能不能彌補在開源社區的名聲[^technews-microsoft-github-developers][^inside-microsoft-github]，但至少 VSCode 是開源的 --- 依舊一定程度上提升了軟體自身聲量。
 
 [^bnext-microsoft-opensource]: [微軟總裁坦承「過去錯了」！從批「開源是癌症」到熱情擁抱，見證軟體帝國霸業轉型史](https://www.bnext.com.tw/article/57737/microsoft-open-source-linux-history-wrong-statement)
 [^technews-microsoft-brad-smith]: [如今擁抱開源，微軟總裁坦承過去選擇是錯的](https://technews.tw/2020/05/19/microsoft-brad-smith-says-company-was-on-the-wrong-side-of-history-regarding-linux/)
@@ -85,7 +85,7 @@ h4::before {
 
 > 筆者雖然沒有專精於 JavaScript，但也一時興起開發了個簡單的小套件 [VSCode Tmux Keybinding](https://marketplace.visualstudio.com/items?itemName=stephlin.vscode-tmux-keybinding)
 
-同時逐漸進步的原生 API 也可以幫助開發者可以藉此實現更多的想法[^medium-hungys-why-vscode] [^vscode-github-api-process]，在社群中蔚為一正能量循環。
+同時逐漸進步的原生 API 也可以幫助開發者可以藉此實現更多的想法[^medium-hungys-why-vscode][^vscode-github-api-process]，在社群中蔚為一正能量循環。
 
 [^medium-hungys-why-vscode]: [為什麼我從 Sublime Text 跳槽 Visual Studio Code？](https://medium.com/hungys-blog/why-i-switched-from-sublime-to-vscode-ea030b3ff1d9)
 [^vscode-github-api-process]: [Extension API process · microsoft/vscode Wiki · GitHub](https://github.com/Microsoft/vscode/wiki/Extension-API-process)
@@ -194,7 +194,7 @@ VSCode 還是 Vim？兩個都要！在 VSCode 上面也可以讓游標飛呢！
 
 #### [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
-2020 年 6 月官方推出的非開源語言伺服器 (Language Server Protocol, LSP)，宣稱在型態解析與語法支援上可以提供更快速且強大的幫助[^microsoft-devblogs-pylance] [^ithome-pylance-20200701] [^ithome-pylance-20200926]。
+2020 年 6 月官方推出的非開源語言伺服器 (Language Server Protocol, LSP)，宣稱在型態解析與語法支援上可以提供更快速且強大的幫助[^microsoft-devblogs-pylance][^ithome-pylance-20200701][^ithome-pylance-20200926]。
 
 [^microsoft-devblogs-pylance]: [Announcing Pylance: Fast, feature-rich language support for Python in Visual Studio Code](https://devblogs.microsoft.com/python/announcing-pylance-fast-feature-rich-language-support-for-python-in-visual-studio-code/)
 [^ithome-pylance-20200701]: [微軟在 VS Code 上推出新的 Python 語言伺服器 Pylance](https://www.ithome.com.tw/news/138536)
