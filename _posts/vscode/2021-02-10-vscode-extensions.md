@@ -7,7 +7,6 @@ tags:
   - vscode
   - extensions
   - insights
-  - preview
 key: 2021-02-10-vscode-extensions
 ---
 
