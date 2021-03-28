@@ -2,4 +2,14 @@
 code {
     font-size: map-get($base, font-size);
 }
+
+.footnote {
+    &::before {
+        content: "[";
+    }
+    &::after {
+        content: "]";
+    }
+}
+
 /* end custom scss snippet */
