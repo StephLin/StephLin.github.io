@@ -56,7 +56,13 @@ yukai.cs09g@nctu.edu.tw
 - 國立中央大學數學系系網頁後台 [v1](http://w2.math.ncu.edu.tw/portal) [v2](http://portal.math.ncu.edu.tw)
 - 國立中央大學微積分 Python 成績系統
 
-## 研討會發表
+## 著作
+
+### 期刊文章 / 論文
+
+- 俞韋亘, **林育愷**, 李家妤 (2021). [三維吻球數探悉](https://web.math.sinica.edu.tw/mathmedia/HTMLarticle18.jsp?mID=45104). 數學傳播 45卷1期, pp. 33-50.
+
+### 會議文章 / 論文
 
 - **Yu-Kai Lin** (2019). _Weighted Instantaneous Phase Corrected Total Variation with Application to Audio Denoising Issue_. Paper presented at NCU&times;HU poster symposium.
 - **Yu-Kai Lin** (2019). _Optimization Problems in Signal and Audio Denoising_. Paper presented at 10<sup>th</sup> Japan-Taiwan joint workshop for young scholars in applied mathematics.
