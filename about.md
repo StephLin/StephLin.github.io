@@ -60,7 +60,7 @@ yukai.cs09g@nctu.edu.tw
 
 ### 期刊文章 / 論文
 
-- 俞韋亘, **林育愷**, 李家妤 (2021). [三維吻球數探悉](https://web.math.sinica.edu.tw/mathmedia/HTMLarticle18.jsp?mID=45104). 數學傳播 45 卷 1 期, pp. 33-50.
+- 俞韋亘, **林育愷**, 李家妤 (2021). [三維吻球數探悉](https://web.math.sinica.edu.tw/math_media/d451/45104.pdf). 中央研究院數學傳播 45 卷 1 期, pp. 33-50.
 
 ### 會議文章 / 論文
 
